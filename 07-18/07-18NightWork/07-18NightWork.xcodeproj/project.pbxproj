@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC3B216F1D3CF065002C8529 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3B216E1D3CF065002C8529 /* main.m */; };
+		BC3B21721D3CF065002C8529 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3B21711D3CF065002C8529 /* AppDelegate.m */; };
+		BC3B217A1D3CF065002C8529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC3B21791D3CF065002C8529 /* Assets.xcassets */; };
+		BC3B217D1D3CF065002C8529 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3B217B1D3CF065002C8529 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC3B216A1D3CF065002C8529 /* 07-18NightWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "07-18NightWork.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3B216E1D3CF065002C8529 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC3B21701D3CF065002C8529 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC3B21711D3CF065002C8529 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC3B21791D3CF065002C8529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC3B217C1D3CF065002C8529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC3B217E1D3CF065002C8529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC3B21671D3CF065002C8529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC3B21611D3CF065002C8529 = {
+			isa = PBXGroup;
+			children = (
+				BC3B216C1D3CF065002C8529 /* 07-18NightWork */,
+				BC3B216B1D3CF065002C8529 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3B216B1D3CF065002C8529 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC3B216A1D3CF065002C8529 /* 07-18NightWork.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3B216C1D3CF065002C8529 /* 07-18NightWork */ = {
+			isa = PBXGroup;
+			children = (
+				BC3B21701D3CF065002C8529 /* AppDelegate.h */,
+				BC3B21711D3CF065002C8529 /* AppDelegate.m */,
+				BC3B21791D3CF065002C8529 /* Assets.xcassets */,
+				BC3B217B1D3CF065002C8529 /* LaunchScreen.storyboard */,
+				BC3B217E1D3CF065002C8529 /* Info.plist */,
+				BC3B216D1D3CF065002C8529 /* Supporting Files */,
+			);
+			path = "07-18NightWork";
+			sourceTree = "<group>";
+		};
+		BC3B216D1D3CF065002C8529 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC3B216E1D3CF065002C8529 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC3B21691D3CF065002C8529 /* 07-18NightWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC3B21811D3CF065002C8529 /* Build configuration list for PBXNativeTarget "07-18NightWork" */;
+			buildPhases = (
+				BC3B21661D3CF065002C8529 /* Sources */,
+				BC3B21671D3CF065002C8529 /* Frameworks */,
+				BC3B21681D3CF065002C8529 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "07-18NightWork";
+			productName = "07-18NightWork";
+			productReference = BC3B216A1D3CF065002C8529 /* 07-18NightWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC3B21621D3CF065002C8529 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "张增强";
+				TargetAttributes = {
+					BC3B21691D3CF065002C8529 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = BC3B21651D3CF065002C8529 /* Build configuration list for PBXProject "07-18NightWork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC3B21611D3CF065002C8529;
+			productRefGroup = BC3B216B1D3CF065002C8529 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC3B21691D3CF065002C8529 /* 07-18NightWork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC3B21681D3CF065002C8529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3B217D1D3CF065002C8529 /* LaunchScreen.storyboard in Resources */,
+				BC3B217A1D3CF065002C8529 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC3B21661D3CF065002C8529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3B21721D3CF065002C8529 /* AppDelegate.m in Sources */,
+				BC3B216F1D3CF065002C8529 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC3B217B1D3CF065002C8529 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC3B217C1D3CF065002C8529 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC3B217F1D3CF065002C8529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC3B21801D3CF065002C8529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC3B21821D3CF065002C8529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "07-18NightWork/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ben.-7-18NightWork";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC3B21831D3CF065002C8529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "07-18NightWork/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ben.-7-18NightWork";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC3B21651D3CF065002C8529 /* Build configuration list for PBXProject "07-18NightWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3B217F1D3CF065002C8529 /* Debug */,
+				BC3B21801D3CF065002C8529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC3B21811D3CF065002C8529 /* Build configuration list for PBXNativeTarget "07-18NightWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3B21821D3CF065002C8529 /* Debug */,
+				BC3B21831D3CF065002C8529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC3B21621D3CF065002C8529 /* Project object */;
+}
